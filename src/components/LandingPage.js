@@ -3,7 +3,7 @@ import GreetingImage from '../images/greetingCardImg.jpg';
 function LandingPage({setDisplay}) {
 
 	const createCard = () => {
-		setDisplay("create card");
+		setDisplay("create");
 	}
 	return (
 		<div id="LandingPage">
@@ -14,7 +14,7 @@ function LandingPage({setDisplay}) {
 				<p>If you like the card above and would like to send it to a friend or family member, please click the button below.</p>
 			</div>
 			<div className="btn-wrap">
-				<button className='btn' onClick={() => createCard}>Create E-Card</button>
+				<button className='btn' onClick={createCard}>Create E-Card</button>
 			</div>
 		</div>
 	);
