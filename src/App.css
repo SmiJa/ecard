@@ -46,6 +46,12 @@ footer a{
   flex: 1;
 }
 
+@media screen and (min-width: 800px) {
+  #content-wrap {
+    width: 800px;
+  }
+}
+
 /* ===============
     LANDING PAGE 
    =============== */
