@@ -52,18 +52,21 @@ footer a{
   }
 }
 
+.img-wrap{
+  width: 80%;
+  padding: 10px;
+}
+
+.img-wrap img {
+  width: 100%;
+  border: 5px solid #fff;
+}
+
 /* ===============
     LANDING PAGE 
    =============== */
 
-#LandingPage .img-wrap{
-  /* width: 80%; */
-}
 
-#LandingPage .img-wrap img {
-  width: 100%;
-  padding: 10px;
-}
 
 #LandingPage .instruction-wrap {
   padding: 10px;
@@ -73,7 +76,21 @@ footer a{
   margin: 10px;
 }
 
-#LandingPage .btn-wrap button {
+.btn-wrap button {
   padding: 10px;
   width: 100%;
+}
+
+/* =============
+    CREATE PAGE 
+   ============= */
+
+#form-wrap form textarea {
+  resize: none;
+}
+
+#form-wrap form textarea,
+#form-wrap form input {
+  display: block;
+  margin: auto;
 }
