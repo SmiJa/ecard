@@ -1,6 +1,4 @@
-import GreetingImage from '../images/greetingCardImg.jpg';
-
-function LandingPage({setDisplay}) {
+function LandingPage({setDisplay, GreetingImage}) {
 
 	const createCard = () => {
 		setDisplay("create");
