@@ -15,14 +15,14 @@ function App() {
   const [body, setBody] = useState(query.get("body") || "I hope you have wonderful holiday!");
   const [closing, setClosing] = useState(query.get("closing") || "Your friend, person");
   const [display, setDisplay] = useState("landing");
+
   
 
   const hasQuery = () => {
     if (query.has('greeting')) {
-      console.log(query.has('greeting'));
       setDisplay("card");
     } else if (query.has('')){
-      setDisplay("landing")
+      setDisplay("landing");
     }
   }
   
