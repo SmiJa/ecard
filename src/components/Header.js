@@ -1,7 +1,12 @@
-function Header() {
+function Header({setDisplay}) {
+
+    const goToLanding = () => {
+        setDisplay("landing");
+    }
+
     return (
         <header>
-            <div className="container">
+            <div onClick={goToLanding} className="container">
                 E-Card
             </div>
         </header>
