@@ -1,7 +1,8 @@
 function ReceivedCard({Greeting, Body, Closing, GreetingImage, setDisplay}) {
 
     const goToLanding = () => {
-        setDisplay("landing");
+        window.location.search = "";
+        setDisplay("create");
     }
 
     return (

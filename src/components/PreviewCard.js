@@ -12,10 +12,10 @@ function PreviewCard({setDisplay, GreetingImage, Email, Greeting, Body, Closing}
         mailto += 'Go to E-Card';
         mailto += '%0D%0A';
 
-        let url = 'https://smija.github.io/ecard/';
+        let url = 'http://localhost:3000/ecard';
         url += `?greeting=${encodeURIComponent(Greeting)}`;
         url += `&body=${encodeURIComponent(Body)}`;
-        url += `&closing=${encodeURIComponent(Closing)}`
+        url += `&closing=${encodeURIComponent(Closing)}`;
 
         mailto += encodeURIComponent(url);
 
