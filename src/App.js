@@ -21,8 +21,6 @@ function App() {
   const hasQuery = () => {
     if (query.has('greeting')) {
       setDisplay("card");
-    } else if (query.has('')){
-      setDisplay("landing");
     }
   }
   
