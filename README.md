@@ -1,3 +1,7 @@
+# Ecard
+
+This project allows you to send an Ecard to a friend or family member.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
