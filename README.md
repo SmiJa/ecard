@@ -3,6 +3,8 @@
 This project allows you to send an Ecard to a friend or family member.
 
 ## Project Requirements
+- [VS Code](https://code.visualstudio.com/)
+- [Node.js](https://nodejs.org/en/)
 
 ## Project Setup
 
