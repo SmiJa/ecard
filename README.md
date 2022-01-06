@@ -2,6 +2,14 @@
 
 This project allows you to send an Ecard to a friend or family member.
 
+## Project Requirements
+
+## Project Setup
+
+## Running the project
+ - Open the terminal in VSCode
+ - Type 'npm run' into the terminal and press ENTER
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
