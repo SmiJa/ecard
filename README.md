@@ -14,11 +14,11 @@ This project allows you to send an Ecard to a friend or family member.
 ## Running the Project
 - Open the terminal in VS Code
 - Type `npm run` into the terminal and press ENTER
+- Ctrl-C can be used to stop the server
 
 ## Development Process
 - When cloning the project to work on it
-  - make a development branch for yourself
-  - 
+  - make a development branch for the ticket you have
 
 ## Deployment Process
 - Open the terminal in VS Code
