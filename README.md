@@ -23,3 +23,6 @@ This project allows you to send an Ecard to a friend or family member.
 ## Deployment Process
 - Open the terminal in VS Code
 - Type `npm run build` into the terminal and press ENTER
+
+## Wiki
+More information on the installation and API used.
